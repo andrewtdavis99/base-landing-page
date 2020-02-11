@@ -51,13 +51,12 @@
 
 body {
     background-image: url('images/bg-pattern-desktop.svg');
+    background-position: center;
+    background-size: cover;
     box-sizing: content-box;  
     Font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
-    width: 100vw;
-    height: 100vh;
-    /* overflow: hidden; */
-   
+    overflow-x: hidden; 
 }
 
 /* Logo */
@@ -178,22 +177,5 @@ p {
     bottom: .5px;
 }
 
-/* Footer */
 
-footer {
-    position: absolute;
-    bottom: -20px;
-    width: 100%;
-    font-size: .7rem;
-    text-align: center;
-    /* margin-left: 9%; */
-    height: 30px;
-}
-
-.attribution {
-    text-align: center;
-    color: black;
-    margin-bottom: 0;
-    width: 100%;
-}
 
